@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
-import braintree
+
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -131,6 +131,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 CART_SESSION_ID = 'cart'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+import braintree
 
 # Braintree settings
 BRAINTREE_MERCHANT_ID = 'rd4z2gs8vxtjyxq3'  # Merchant ID
