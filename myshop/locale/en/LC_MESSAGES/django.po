@@ -24,4 +24,4 @@ msgstr ""
 
 #: myshop/settings.py:120
 msgid "Spanish"
-msgstr ""
+msgstr "Español"
