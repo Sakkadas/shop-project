@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-08 22:00+0300\n"
+"POT-Creation-Date: 2021-04-10 18:19+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,3 +25,27 @@ msgstr ""
 #: myshop/settings.py:120
 msgid "Spanish"
 msgstr "Español"
+
+#: orders/models.py:10
+msgid "first name"
+msgstr ""
+
+#: orders/models.py:12
+msgid "last name"
+msgstr ""
+
+#: orders/models.py:14
+msgid "e-mail"
+msgstr ""
+
+#: orders/models.py:15
+msgid "address"
+msgstr ""
+
+#: orders/models.py:17
+msgid "postal code"
+msgstr ""
+
+#: orders/models.py:19
+msgid "city"
+msgstr ""
