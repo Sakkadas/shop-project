@@ -159,6 +159,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 
 # Braintree settings
+
 BRAINTREE_MERCHANT_ID = 'rd4z2gs8vxtjyxq3'  # Merchant ID
 BRAINTREE_PUBLIC_KEY = 'nwyvrz2zb4kc53b8'  # Public Key
 BRAINTREE_PRIVATE_KEY = 'b7a5fcb107364b52be4f7fb984d639a6'  # Private key
@@ -175,3 +176,9 @@ BRAINTREE_CONF = braintree.Configuration(
 LOCALE_PATHS = (
     os.path.join(BASE_DIR, 'locale/'),
 )
+
+#Redis settings
+
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6379
+REDIS_DB = 1
