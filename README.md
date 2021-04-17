@@ -1,6 +1,15 @@
 <h1 align="center">Grocery shop </h1>
 
-<p align="center">This is simple an e-commerce website of groceries .</p>
+<p align="left">This is simple an e-commerce website of groceries .</p>
+
+<p align="left">
+   <img alt="hi" img width="60%" src="https://s4.gifyu.com/images/SNIMOK-EKRANA-2021-04-17-V-20.35.39.png" align="center"/>
+</p>
+
+
+
+
+
 
 # Requirements
 
